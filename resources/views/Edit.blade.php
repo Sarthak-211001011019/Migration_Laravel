@@ -13,7 +13,7 @@
     Title : <input type="text" name="Title" value="{{$Edit_Data->title}}"><br>
     Description : <input type="textarea" name="Description" value="{{$Edit_Data->description}}"><br>
     <button>Submit</button>
-
     </form>
+    @endif
 </body>
 </html>

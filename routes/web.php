@@ -22,7 +22,7 @@ Route::get('/', function () {
 
 Route::get('/Form_rout',[PostController::class , 'Regform']);
 Route::post('/Insert_rout',[PostController::class , 'Datainsert']);
-Route::post('/Display_rout',[PostController::class , 'Display']);
+Route::get('/Display_rout',[PostController::class , 'Display']);
 Route::get('/Edit_rout{edit_id}',[PostController::class , 'Editdata']);
 Route::post('/Update_rout',[PostController::class , 'UpdateData']);
 Route::get('/Delete_rout{del_id}',[PostController::class , 'DeleteData']);
